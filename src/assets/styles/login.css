@@ -1,0 +1,35 @@
+.login {
+  width: 400px;
+  position: relative; }
+  .login .box-content {
+    padding: 5px 30px 30px 30px;
+    text-align: center;
+    background: #fff; }
+  .login .box-header {
+    color: #6b7c93;
+    text-align: center;
+    border-bottom: 1px solid #f7f7f7; }
+  .login .input-wrap {
+    margin-bottom: 10px; }
+  .login footer {
+    padding: 20px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #eee; }
+  .login .styledRouterLink {
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    flex: 1;
+    justify-content: center; }
+  .login .logo-wrap {
+    position: absolute;
+    top: -40px; }
+  .login img.logo {
+    max-width: 160px;
+    position: absolute; }
+  .login .error {
+    color: crimson;
+    margin: 5px 0; }

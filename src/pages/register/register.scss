@@ -1,0 +1,44 @@
+.register {
+  width: 400px;
+  position: relative;
+  .box-content {
+    padding: 5px 30px 30px 30px;
+    text-align: center;
+    background: #fff;
+  }
+  .box-header {
+    color: #6b7c93;
+    text-align: center;
+    border-bottom: 1px solid #f7f7f7;
+  }
+  .input-wrap {
+    margin-bottom: 10px;
+  }
+  footer {
+    padding: 20px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #eee;
+  }
+  .styledRouterLink {
+    color: #333;
+    text-decoration: none;
+    display:flex;
+    flex: 1;
+    justify-content: center;
+  }
+  .logo-wrap {
+    position: absolute;
+    top: -40px;
+  }
+  img.logo {
+    max-width: 160px;
+    position: absolute;
+  }
+  .error {
+    color: crimson;
+    margin: 5px 0;
+  }
+}

@@ -1,0 +1,29 @@
+@import './styles/variables';
+@import './pages/pages.scss';
+@import './styles/autocomplete';
+@import './styles/global';
+@import './styles/material-rewrites';
+@import './styles/text';
+@import './components/components.scss';
+
+.App {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+/* Content - Main area */
+
+.App-Content {
+  flex: 1;
+  height:100%;
+  // background: $background;
+}
+
+// wrapper for public pages: login, register, reset password
+.public-pages {
+  display: flex;
+  flex: 1;
+  background: gainsboro;
+  justify-content: center;
+  align-items: center;
+}
